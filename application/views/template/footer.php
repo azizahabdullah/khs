@@ -1,7 +1,7 @@
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-            Azizah Abdullah Wisudah 2023
+            Bismillah sukses proposal
           </div>
           <div class="clearfix"></div>
         </footer>
