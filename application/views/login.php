@@ -6,19 +6,19 @@
       <div class="login_wrapper">
         <div class="animate form login_form">
           <section class="login_content">
-            <form>
+            <form method="post" action="<?php base_url('Welcome');?>">
               <h1>Login Form</h1>
               <div>
-                <input type="text" class="form-control" placeholder="Username" required="" />
+                <input type="text" class="form-control" placeholder="Username" required=""/>
               </div>
               <div>
-                <input type="password" class="form-control" placeholder="Password" required="" />
+                <input type="password" class="form-control" placeholder="Password" required=""/>
               </div>
 
 
               <div>
-                         <button type="submit" class="btn btn-success">Submit</button>
-                        
+                         <!-- <button type="submit" class="btn btn-success">Login</button> -->
+                        <a href="<?php base_url();?>welcome" class="btn btn-success h1">Login</a>
               </div>
 
 

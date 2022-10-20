@@ -1,9 +1,10 @@
 <?php
+
 class M_login extends CI_Models {
 
     public function getUser() {
-        $this -u
-    }
+        $this->db->get();
 
+    }
 
 }
